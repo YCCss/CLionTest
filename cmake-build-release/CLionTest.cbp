@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLionTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/YCQ/code/C++/CLionTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/YCQ/code/C++/CLionTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLionTest">
+				<Option output="E:/YCQ/code/C++/CLionTest/cmake-build-release/CLionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/YCQ/code/C++/CLionTest/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 CLionTest"/>
+					<CompileFile command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLionTest/fast">
+				<Option output="E:/YCQ/code/C++/CLionTest/cmake-build-release/CLionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/YCQ/code/C++/CLionTest/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\program files (x86)\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 CLionTest/fast"/>
+					<CompileFile command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/YCQ/code/C++/CLionTest/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRA~1/mingw/bin/mingw32-make.exe -f &quot;E:/YCQ/code/C++/CLionTest/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/bigheap.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/learn_easyx.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/main.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/mthread.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/output_container.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/package.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/prime_number.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/semaphore.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/solve1.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/test.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/thread_pool1.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/thread_pool2.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
