@@ -1,4 +1,4 @@
-ToolSet: 5.0 (local)@D:\Program Files (x86)\mingw
+ToolSet: w64 6.0 (local)@d:\Program Files (x86)\mingw64
 Options: 
 
 Options:

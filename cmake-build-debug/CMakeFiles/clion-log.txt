@@ -1,4 +1,18 @@
-MinGW not found at: D:\Program Files (x86)\mingw Configure
-
-Cannot get compiler information:
-	Cannot run program "D:\Program Files (x86)\mingw\bin\g++.exe" (in directory "E:\YCQ\code\C++\CLionTest\cmake-build-debug"): CreateProcess error=2, 系统找不到指定的文件。
+"D:\Program Files (x86)\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\YCQ\code\C++\CLionTest
+-- The C compiler identification is GNU 8.1.0
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/Program Files (x86)/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Program Files (x86)/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/Program Files (x86)/mingw64/bin/g++.exe
+-- Check for working CXX compiler: D:/Program Files (x86)/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/YCQ/code/C++/CLionTest/cmake-build-debug
