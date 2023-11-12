@@ -122,113 +122,32 @@ CLionTest/fast:
 	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/build
 .PHONY : CLionTest/fast
 
-main.obj: main.cpp.obj
+Game/Tetris/Game_Tetris1.obj: Game/Tetris/Game_Tetris1.cpp.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-mthread.obj: mthread.cpp.obj
-
-.PHONY : mthread.obj
+.PHONY : Game/Tetris/Game_Tetris1.obj
 
 # target to build an object file
-mthread.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.obj
-.PHONY : mthread.cpp.obj
+Game/Tetris/Game_Tetris1.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Tetris/Game_Tetris1.cpp.obj
+.PHONY : Game/Tetris/Game_Tetris1.cpp.obj
 
-mthread.i: mthread.cpp.i
+Game/Tetris/Game_Tetris1.i: Game/Tetris/Game_Tetris1.cpp.i
 
-.PHONY : mthread.i
-
-# target to preprocess a source file
-mthread.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.i
-.PHONY : mthread.cpp.i
-
-mthread.s: mthread.cpp.s
-
-.PHONY : mthread.s
-
-# target to generate assembly for a file
-mthread.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.s
-.PHONY : mthread.cpp.s
-
-test.obj: test.cpp.obj
-
-.PHONY : test.obj
-
-# target to build an object file
-test.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.obj
-.PHONY : test.cpp.obj
-
-test.i: test.cpp.i
-
-.PHONY : test.i
+.PHONY : Game/Tetris/Game_Tetris1.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.i
-.PHONY : test.cpp.i
+Game/Tetris/Game_Tetris1.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Tetris/Game_Tetris1.cpp.i
+.PHONY : Game/Tetris/Game_Tetris1.cpp.i
 
-test.s: test.cpp.s
+Game/Tetris/Game_Tetris1.s: Game/Tetris/Game_Tetris1.cpp.s
 
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.s
-.PHONY : test.cpp.s
-
-thread_pool1.obj: thread_pool1.cpp.obj
-
-.PHONY : thread_pool1.obj
-
-# target to build an object file
-thread_pool1.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.obj
-.PHONY : thread_pool1.cpp.obj
-
-thread_pool1.i: thread_pool1.cpp.i
-
-.PHONY : thread_pool1.i
-
-# target to preprocess a source file
-thread_pool1.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.i
-.PHONY : thread_pool1.cpp.i
-
-thread_pool1.s: thread_pool1.cpp.s
-
-.PHONY : thread_pool1.s
+.PHONY : Game/Tetris/Game_Tetris1.s
 
 # target to generate assembly for a file
-thread_pool1.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.s
-.PHONY : thread_pool1.cpp.s
+Game/Tetris/Game_Tetris1.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Tetris/Game_Tetris1.cpp.s
+.PHONY : Game/Tetris/Game_Tetris1.cpp.s
 
 # Help Target
 help:
@@ -239,18 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... CLionTest
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... mthread.obj
-	@echo ... mthread.i
-	@echo ... mthread.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
-	@echo ... thread_pool1.obj
-	@echo ... thread_pool1.i
-	@echo ... thread_pool1.s
+	@echo ... Game/Tetris/Game_Tetris1.obj
+	@echo ... Game/Tetris/Game_Tetris1.i
+	@echo ... Game/Tetris/Game_Tetris1.s
 .PHONY : help
 
 

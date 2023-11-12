@@ -2,8 +2,9 @@
 using namespace std;
 
 
+
 //判断向限
-int main()
+int main1()
 {
 
   string s;
