@@ -122,32 +122,113 @@ CLionTest/fast:
 	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/build
 .PHONY : CLionTest/fast
 
-Game/Snake/snake.obj: Game/Snake/snake.cpp.obj
+main.obj: main.cpp.obj
 
-.PHONY : Game/Snake/snake.obj
+.PHONY : main.obj
 
 # target to build an object file
-Game/Snake/snake.cpp.obj:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Snake/snake.cpp.obj
-.PHONY : Game/Snake/snake.cpp.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-Game/Snake/snake.i: Game/Snake/snake.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Game/Snake/snake.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Game/Snake/snake.cpp.i:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Snake/snake.cpp.i
-.PHONY : Game/Snake/snake.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Game/Snake/snake.s: Game/Snake/snake.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Game/Snake/snake.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Game/Snake/snake.cpp.s:
-	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/Game/Snake/snake.cpp.s
-.PHONY : Game/Snake/snake.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+mthread.obj: mthread.cpp.obj
+
+.PHONY : mthread.obj
+
+# target to build an object file
+mthread.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.obj
+.PHONY : mthread.cpp.obj
+
+mthread.i: mthread.cpp.i
+
+.PHONY : mthread.i
+
+# target to preprocess a source file
+mthread.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.i
+.PHONY : mthread.cpp.i
+
+mthread.s: mthread.cpp.s
+
+.PHONY : mthread.s
+
+# target to generate assembly for a file
+mthread.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/mthread.cpp.s
+.PHONY : mthread.cpp.s
+
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/test.cpp.s
+.PHONY : test.cpp.s
+
+thread_pool1.obj: thread_pool1.cpp.obj
+
+.PHONY : thread_pool1.obj
+
+# target to build an object file
+thread_pool1.cpp.obj:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.obj
+.PHONY : thread_pool1.cpp.obj
+
+thread_pool1.i: thread_pool1.cpp.i
+
+.PHONY : thread_pool1.i
+
+# target to preprocess a source file
+thread_pool1.cpp.i:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.i
+.PHONY : thread_pool1.cpp.i
+
+thread_pool1.s: thread_pool1.cpp.s
+
+.PHONY : thread_pool1.s
+
+# target to generate assembly for a file
+thread_pool1.cpp.s:
+	$(MAKE) -f CMakeFiles\CLionTest.dir\build.make CMakeFiles/CLionTest.dir/thread_pool1.cpp.s
+.PHONY : thread_pool1.cpp.s
 
 # Help Target
 help:
@@ -158,9 +239,18 @@ help:
 	@echo ... edit_cache
 	@echo ... CLionTest
 	@echo ... rebuild_cache
-	@echo ... Game/Snake/snake.obj
-	@echo ... Game/Snake/snake.i
-	@echo ... Game/Snake/snake.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... mthread.obj
+	@echo ... mthread.i
+	@echo ... mthread.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
+	@echo ... thread_pool1.obj
+	@echo ... thread_pool1.i
+	@echo ... thread_pool1.s
 .PHONY : help
 
 

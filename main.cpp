@@ -13,6 +13,7 @@ using namespace std;
 
 int main()
 {
+    cout<<" .............start............. "<<endl;
     Solution sv; //解决问题类
     Package p; //调用接口类
     sv.print_point();

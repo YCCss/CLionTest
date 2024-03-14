@@ -84,7 +84,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/YCQ/code/C++/CLionTest/Game/Snake/snake.cpp">
+		<Unit filename="E:/YCQ/code/C++/CLionTest/bigheap.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/learn_easyx.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/main.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/mthread.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/output_container.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/package.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/prime_number.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/semaphore.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/solve1.h">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/test.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/thread_pool1.cpp">
+			<Option target="CLionTest"/>
+		</Unit>
+		<Unit filename="E:/YCQ/code/C++/CLionTest/thread_pool2.h">
 			<Option target="CLionTest"/>
 		</Unit>
 		<Unit filename="E:/YCQ/code/C++/CLionTest/CMakeLists.txt">
