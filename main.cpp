@@ -18,8 +18,6 @@ int main()
     Package p; //调用接口类
     sv.print_point();
 
-    LearnEasyx e;
-    e.ex1();
 
     cout<<" .............end............. "<<endl;
     return 0;
